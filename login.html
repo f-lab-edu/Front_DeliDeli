@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인 화면</title>
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="logo">
+            <h1>DeliDeli</h1>
+            <div class="idForm">
+                <input type="text" class="id" id="userId" placeholder="아이디를 입력하세요." style="border: 0;">
+            </div>
+            <div class="pwForm">
+                <input type="password" class="pw" id="userPw" placeholder="비밀번호를 입력하세요." style="border: 0;">
+            </div>
+            <div class="button-group">
+                <button type="button" class="button-id">아이디 찾기</button>
+                <button type="button" class="button-pw">비밀번호 찾기</button>
+                <button type="button" class="button-join" onclick="join();">회원가입</button>
+            </div>
+            <br>
+            <button type="button" class="button-login" onclick="login();">
+                로그인
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>
