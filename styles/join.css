@@ -21,58 +21,65 @@
     flex-direction: column;
   }
 
-.input-id {
+h1{
+    color:rgb(125, 175, 233)
+}
+
+.input_id {
     width: 100%;
     height: 20px;
     display: flex;
     margin-top: 40px;
 }
 
-.input-pw {
+.input_pw {
     width: 100%;
     height: 20px;
     display: flex;
     margin-top: 10px;
 }
 
-.input-pw2 {
+.input_pw2 {
     width: 100%;
     height: 20px;
     display: flex;
     margin-top: 10px;
 }
 
-.input-name {
+.input_name {
     width: 100%;
     height: 20px;
     display: flex;
     margin-top: 10px;
 }
 
-.input-phone {
+.input_phone {
     width: 100%;
     height: 20px;
     display: flex;
     margin-top: 10px;
 }
 
-.input-address {
+.input_address {
     width: 100%;
     height: 20px;
     display: flex;
     margin-top: 10px;
 }
 
-.check-agree {
+.check_agree {
     margin-top: 20px;
 }
-.check-info {
+
+.check_info {
     margin-top: 10px;
 }
-.check-location {
+
+.check_location {
     margin-top: 10px;
 }
-.button-join {
+
+.button_join {
     margin-top: 30px;
     width:200px;
     height: 40px;

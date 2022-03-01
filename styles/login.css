@@ -22,7 +22,7 @@
     flex-direction: column;
   }
 
-.idForm {
+.id_form {
     width: 70%;
     height: 40px;
     border-radius: 30px;
@@ -38,7 +38,7 @@
     margin-left: 55px;
 }
 
-.pwForm {
+.pw_form {
     width: 70%;
     height: 40px;
     border-radius: 30px;
@@ -56,7 +56,11 @@ input:focus {
     outline:none;
 }
 
-.button-id {
+.button_group {
+    text-align: center;
+}
+
+.button_id {
     background-color: cornflowerblue;
     border:none;
     width : 40%;
@@ -64,7 +68,8 @@ input:focus {
     margin-top: 10px;
     border-radius: 5px;
 }
-.button-pw {
+
+.button_pw {
     background-color: cornflowerblue;
     border:none;
     width:40%;
@@ -74,7 +79,7 @@ input:focus {
 
 }
 
-.button-join {
+.button_join {
     background-color: cornflowerblue;
     border:none;
     width:30%;
@@ -83,11 +88,7 @@ input:focus {
     border-radius: 5px;
 }
 
-.button-group {
-    text-align: center;
-}
-
-.button-login {
+.button_login {
     width: 30%;
     height: 40px;
     margin-top: 20px;
