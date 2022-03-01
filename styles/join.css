@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.1);
+}
+.join {
+    width: 30%;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+h1{
+    color:rgb(125, 175, 233)
+}
+
+.input_id {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.input_pw {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.input_pw2 {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.input_name {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.input_phone {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.input_address {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.check_agree {
+    margin-top: 20px;
+}
+
+.check_info {
+    margin-top: 10px;
+}
+
+.check_location {
+    margin-top: 10px;
+}
+
+.button_join {
+    margin-top: 30px;
+    width:200px;
+    height: 40px;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+}
