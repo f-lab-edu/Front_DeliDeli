@@ -5,12 +5,12 @@ function login() {
     var userId = document.getElementById("userId").value;
     var userPw = document.getElementById("userPw").value;
 
-    if(userId == ""){
+    if(userId === ""){
         alert("아이디를 입력하세요");
         return;
         
     }
-    if(userPw == ""){
+    if(userPw === ""){
         alert("비밀번호를 입력하세요");
         return;
     }
